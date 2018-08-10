@@ -1,0 +1,30 @@
+#title{
+	font-family: 'Monoton', cursive;
+	text-align: center;
+	display: flex;
+/*    border: 4px dashed;
+    padding: 276px;*/
+    font-size: 32px;
+    margin-left: 165px;
+}
+#wrap{
+	border: 4px dashed;
+    padding: 250px;
+}
+#line{
+	text-align: center;
+	display: inline-flex;
+	list-style-type: none;
+	margin-left: 175px;
+}
+#line > li {
+	padding: 5px;
+	font-size: 20px;
+	font-family: 'Unica One', cursive;
+}
+#line > li > i {
+	margin-left: 8px;
+}
+#title > i {
+	padding: 8px;
+}
