@@ -9,3 +9,145 @@
 .marginTop{
 	margin-top: 70px;
 }
+.stars{
+	width: 320px;
+	height: 320px;
+	border-radius: 50%;
+	margin: 25px;
+	border: 4px solid red;
+	padding: 1px;
+}
+#allstars{
+	text-align: center;
+}
+/*.imgContainer{
+	position: relative;
+  	width: 40%;
+}*/
+.imgContainer:hover #overlay1{
+	opacity: 0.4;
+}
+/*.imgContainer:hover #overlay2{
+	opacity: 0.4;
+}*/
+/*#textGaga {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}*/
+/*#textDestiny{
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}*/
+/*#overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}*/
+/*#overlay2{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}*/
+#flexContainer{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-flow: nowrap;
+   align-content: center;
+}
+.serviceImg{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.col{
+	text-align: center;
+}
+.services{
+	text-align: center;
+	padding: 45px;
+}
+.services > span{
+	margin: 25px;
+}
+.services > h2{
+	width: 100%;
+}
+.col > h1{
+	padding: 5px;
+	margin-top: 30px
+}
+.col >h3 {
+	padding: 5px;
+}
+.col >span {
+	padding: 5px;
+}
+.col > button{
+	padding: 10px;
+	border-radius: 50px;
+	margin: 20px;
+	width: 225px;
+	height: 45px;
+
+}
+footer{
+	margin-top: 100px;
+	background-color: ghostwhite;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;
+	bottom: 0px;
+	padding: 30px;
+	border-top: 1px solid;;
+	border-width: 10px;
+}
+#mixer{
+	right: 20px;
+	top: 60px;
+}
+#mic{
+	left: 10px
+}
+#mixboard{
+	bottom: 60px;
+	right: 20px;
+}
+.serviceRow{
+	padding: 30px;
+}
+.serviceCol {
+	top:50px;
+}
+.serviceCol1{
+	bottom: 10px;
+}
+.serviceCol2{
+	bottom:30px;
+}
+.centerAlign{
+	text-align: center;
+}
